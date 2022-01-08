@@ -1,0 +1,58 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3755] too many parameters for module instance 'pcreg' [C:/Users/DELL/Desktop/CPU_mips/CO-lab-material-CQU-2021/test/lab4/rtl/myCPU/datapath.v:155]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 6 for port 'd' [C:/Users/DELL/Desktop/CPU_mips/CO-lab-material-CQU-2021/test/lab4/rtl/myCPU/datapath.v:206]
+WARNING: [VRFC 10-3091] actual bit length 45 differs from formal bit length 40 for port 'ascii' [C:/Users/DELL/Desktop/CPU_mips/CO-lab-material-CQU-2021/test/lab4/rtl/myCPU/mycpu_top.v:60]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [C:/Users/DELL/Desktop/CPU_mips/CO-lab-material-CQU-2021/test/lab4/rtl/top.v:63]
+WARNING: [VRFC 10-5021] port 'rsta' is not connected on this instance [C:/Users/DELL/Desktop/CPU_mips/CO-lab-material-CQU-2021/test/lab4/rtl/top.v:74]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.flopenrc(WIDTH=20)
+Compiling module xil_defaultlib.flopr(WIDTH=6)
+Compiling module xil_defaultlib.flopr(WIDTH=2)
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.hazard
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.flopenrc(WIDTH=32)
+Compiling module xil_defaultlib.flopenrc(WIDTH=1)
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.eqcmp
+Compiling module xil_defaultlib.flopenrc(WIDTH=5)
+Compiling module xil_defaultlib.flopenrc(WIDTH=6)
+Compiling module xil_defaultlib.mux3(WIDTH=32)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.div
+Compiling module xil_defaultlib.do_div
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.flopenrc
+Compiling module xil_defaultlib.mydatamem
+Compiling module xil_defaultlib.hilo_reg
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.instdec
+Compiling module xil_defaultlib.mycpu_top
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav

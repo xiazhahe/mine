@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Jan  4 01:38:51 2022
+# Process ID: 4716
+# Current directory: C:/Users/nsj/Desktop/lab4_shift/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3904 C:\Users\nsj\Desktop\lab4_shift\project_1\project_1.xpr
+# Log file: C:/Users/nsj/Desktop/lab4_shift/project_1/vivado.log
+# Journal file: C:/Users/nsj/Desktop/lab4_shift/project_1\vivado.jou
+# Running On: DESKTOP-TUBTSQN, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8454 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/nsj/Desktop/lab4_shift/project_1/project_1.xpr
+
+update_compile_order -fileset sources_1
