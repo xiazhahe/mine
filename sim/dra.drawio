@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T11:00:40.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="wZCBRHxjLx-nVTyebuoL" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-17T11:09:40.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="owO6kOo74JCrJHbymyZ7" version="16.2.7" type="github">
   <diagram id="n2OYC5LQOtsgvxPAddhD" name="第 1 页">
     <mxGraphModel dx="1038" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -90,6 +90,17 @@
         </mxCell>
         <mxCell id="KVpj3WEin9Y6bcMQxTFN-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="432" y="321" width="58" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="KVpj3WEin9Y6bcMQxTFN-24" value="" style="endArrow=none;html=1;rounded=1;fontSize=14;strokeColor=#FF6666;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="341" as="sourcePoint" />
+            <mxPoint x="570" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVpj3WEin9Y6bcMQxTFN-25" value="Feasible solution area" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="KVpj3WEin9Y6bcMQxTFN-24">
+          <mxGeometry x="0.4726" y="1" relative="1" as="geometry">
+            <mxPoint x="79" y="-12" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
